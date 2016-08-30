@@ -22,22 +22,23 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  for (int i =0;i<5;1++){
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);              // wait for a second
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(500);
+  for (int i=0;i<5;i++){
+    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(500);              // wait for a second
+    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+    delay(500);
   }
-  for (int i =0;i<10;1++){
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(250);              // wait for a second
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(250);
+  for (int i=0;i<10;i++){
+    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(250);              // wait for a second
+    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+    delay(250);
   } 
-  for (int i =0;i<20;1++){
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(150);              // wait for a second
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(150);
+  for (int i =0;i<20;i++){
+    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(125);              // wait for a second
+    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+    delay(125);
   }  // wait for a second
 }
+
